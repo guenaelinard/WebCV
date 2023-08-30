@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mon Web CV - Guénaël Inard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Guénaël Inard</h1>
+      <nav>
+        <a class="liens" href="index.html" title="Page d'accueil">Home</a>
+        <a class="liens" href="hobby.html" title="Hobbies">Hobbies</a>
+        <a class="liens" href="contact.html" title="Contact">Contact</a>
+      </nav>
+    </header>
+    <article>
+      <h2 class="me-contacter">Me Contacter</h2>
+      <div class="formulaire">
+        <form action="https://httpbin.org/post" method="post">
+          <div>
+            <label for= "civilite-monsieur">M.</label>
+            <input type="radio" id="civilite-monsieur" name="civilite" value="monsieur">
+            <label for= "civilite-madame">Mme</label>
+            <input type="radio" id="civilite-madame" name="civilite" value="madame">
+          </div>
+          <label for="fname">Nom & prénom</label>
+          <input type="text" id="fname" name="firstname">
+          <label for="sujet">Sujet</label>
+          <input type="text" id="sujet" name="sujet">
+          <label for="emailAddress">Email</label>
+          <input id="emailAddress" type="email" name="email">
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Votre message..." rows="8"></textarea>
+          <input type="submit" value="Envoyer">
+        </form>
+      </div>
+    </article>
+    <aside>
+      <h3 class="mes-liens">Mes liens</h3>
+      <div class="contact-icone">
+        <div class="linkedin-icone">
+          <a class="linkedin" href="https://fr.linkedin.com/in/guenael-inard-bb5754208">
+            <img src="../img/linkedin.jpg" alt="Lien Profil Linkedin">
+          </a>
+          <p>LinkedIn</p>
+        </div>
+        <div class="telephone">
+          <img src="../img/phone_icon.jpg" alt="Numéro de téléphone">
+          <p>06.23.41.61.50</p>
+        </div>
+        <div class="mail-icon">
+          <img src="../img/mail_icon.png" alt="Adresse Mail">
+          <p>guenael.inard@gmail.com</p>
+        </div>
+      </div>
+    </aside>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,253 @@
+/*----------INDEX--------*/
+html {
+    font-size: 18px;
+}
+body {
+    background-color: #FAEDED;
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1220px ;
+}
+
+main {
+    align-content: center;
+    max-width: 1440px;
+    min-width: fit-content;
+    margin: auto auto;
+}
+
+body p {
+    padding: 1em;
+}
+/*-Main utilisé en guise de container-*/
+
+/*-------- Titres --------*/
+
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 2% 0 2% 2%;
+    color: #116A7B;
+    font-size: 2rem;
+}
+
+body p {
+    margin: 0 0 0 2%;
+}
+
+/*-------- HEADER -------*/
+
+
+header {
+
+    padding: 1rem 5rem 1rem;
+    text-align: justify;
+    background: #fff;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* POLICE GOOGLE FONT CHERCHER LIEN + rajouter dans p.HMTLx3-*/
+
+
+.liens {
+    margin: 0 0 0 2%;
+    color: #116A7B;
+    text-decoration: none;
+}
+
+
+/*-------- Intro ---------*/
+
+
+
+.intro {
+    display: grid;
+    display: flex;
+    grid-template-columns: 70% 30%;
+    margin: 5rem;
+    column-gap: 2%;
+    align-items: center;
+}
+
+
+
+.photo_profil {
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 1em;
+}
+
+/*----------- Dev Skills-------------*/
+
+
+.dev_skills {
+    display: flex;
+    /*justify-content: space-evenly;*/
+    align-items: center;
+}
+
+
+.dev_skills img {
+    width: 5rem;
+    height: 5rem;
+    padding: 2%;
+}
+
+
+/*----------- SoftLangues------------*/
+
+.softlangues {
+    display: flex;
+    justify-content: center;
+    gap: 25rem;
+}
+
+
+/*----------------TABLEAU------------*/
+
+
+table,
+th,
+td {
+    padding: .5rem 2rem;
+    border-collapse: collapse;
+}
+
+.job {
+    background-color: #F7E6C4;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*-----------Hobbies---------*/
+
+
+.hiking_banner {
+    background-image: url(/Pictures/Hiking.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px auto;
+    border: 2px dashed #333;
+}
+
+#hobbies {
+    font-style: oblique;
+    font-size: 4rem;
+}
+
+.mama div {
+    position: relative;
+}
+
+.mama img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin: 1em 1em 1em 1em;
+}
+
+.hiking_text,
+.vg_text,
+.movies_text {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    text-align: center;
+    font-size: 250%;
+    color: #fff;
+}
+
+
+.video_evo {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+/*-------- Texte -------*/
+
+.bold-text {
+    font-weight: 700;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+#emphase-text {
+    font-weight: 700;
+    font-size: 100%;
+}
+
+
+/*---------- Formulaire Contact-------*/
+
+
+.form {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.formulaire {
+  /* Ajouter box-sizing */
+  box-sizing : border-box;
+  border-radius:5px;
+  background-color:#f2f2f2;
+  padding:20px;
+  width: 100%;
+  max-width: 1080px;
+  margin:auto 0;
+}
+
+
+input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+  }
+
+  label{
+    margin-right: 0px;
+    margin-left: 2%;
+    width: 100%;}
+  
+  input[type=submit] {
+    background-color: #1255a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.linkedin-icone img,
+.telephone img
+.mail-icon img {
+    width: 48px;
+    height: 48px;
+
+}
+
+
+.linkedin-icone, .telephone, .mail-icon {
+    display: flex;
+    flex: auto;
+    gap: 1rem;
+    margin-left: 1%;
+    align-items: center;
+}
